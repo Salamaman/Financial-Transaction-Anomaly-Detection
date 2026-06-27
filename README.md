@@ -1,7 +1,7 @@
 # Financial Transaction Anomaly Detection & AML Triage Engine
 
 An end-to-end data analytics and business intelligence project that builds an automated rule-based anomaly detection engine in Python and translates high-risk patterns into an executive-level Power BI triage dashboard.
-
+<img src="dashboard_screenshot.png" alt="Power BI Dashboard" width="100%">
 ## 📌 Project Overview
 In modern retail banking, manual review of transactions is scale-prohibitive, leading to high operational lag and increased vulnerability to financial crimes. This project bridges the gap between raw backend transaction logs and proactive risk mitigation. 
 
