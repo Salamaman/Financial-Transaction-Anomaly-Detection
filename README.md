@@ -1,7 +1,6 @@
 # Financial Transaction Anomaly Detection & AML Triage Engine
 
 An end-to-end data analytics and business intelligence project that builds an automated rule-based anomaly detection engine in Python and translates high-risk patterns into an executive-level Power BI triage dashboard.
-<img src="dashboard_screenshot.png" alt="Power BI Dashboard" width="100%">
 ## 📌 Project Overview
 In modern retail banking, manual review of transactions is scale-prohibitive, leading to high operational lag and increased vulnerability to financial crimes. This project bridges the gap between raw backend transaction logs and proactive risk mitigation. 
 
@@ -36,3 +35,10 @@ Flagged Alerts = SUM(final_flagged_transactions[final_predicted_anomaly])
 SLA Alert Rate = DIVIDE([Flagged Alerts], [Total Transactions], 0)
 
 🔍 Key Data-Driven Insights & FindingsAnalysis of the operational dashboard reveals clear systemic risk trends across the bank's processing landscape:Escalating Quarter-over-Quarter Risk: Flagged anomalies experienced a steady upward trajectory throughout the first half of the year, surging from an annual low of 94 cases in February to a peak of 107 cases in June. This signals a coordinated shift in malicious traffic or structural gaps in transaction boundaries during Q2.High-Risk Channel Concentration: Vulnerabilities are highly localized. ATM and Mobile App channels are the primary vectors for illicit or anomalous activity, contributing roughly 155 flags each. Conversely, Internet Banking remains the most secure infrastructure node with minimal flag generation (~62 cases).💼 Strategic Business RecommendationsBased on the visual intelligence compiled from this engine, the risk management team should deploy the following mitigation controls:Deploy Step-Up Authentication on Vulnerable Channels: Implement real-time multi-factor authentication (MFA) and biometric challenges specifically targeting transactions originating from Mobile Apps and ATMs that cross the $2\sigma$ monetary volume thresholds.Conduct a Q2 Operational Audit: Launch a specialized investigation into the underlying causes of the transaction volume and anomaly escalation observed between February and June to determine if an external system breach or a new structural vulnerability is being exploited.Triage Queue Optimization: Reallocate compliance specialist staffing away from Internet Banking audits to actively clear the high-density ATM and Mobile App anomaly queues, keeping operational response within internal SLA targets.
+
+
+
+
+
+<img src="dashboard_screenshot.png" alt="Power BI Dashboard" width="100%">
+
